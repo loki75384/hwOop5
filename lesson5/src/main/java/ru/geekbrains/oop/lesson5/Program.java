@@ -21,9 +21,10 @@ public class Program {
         BookingView view = new BookingView();
 
         BookingPresenter presenter = new BookingPresenter(view, model);
-        presenter.updateTablesView();
-        view.reservationTable(new Date(), 2, "Станислав");
-        view.changeReservationTable(1001, new Date(), 4, "Станислав");
+       //presenter.updateTablesView();
+
+
+
 
     }
 
