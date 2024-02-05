@@ -46,6 +46,7 @@ public class TableService implements Model {
      * @param name
      * @return
      */
+    @Override
     public int changeReservationTable(int oldReservation, Date reservationDate, int tableNo, String name) {
         return -1;
     }
